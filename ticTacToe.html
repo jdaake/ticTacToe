@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <h1 id="title" class="container-fluid">Tic-Tac-Toe</h1>
+    <!-- <div id="playerNames" class="container-fluid">
+      <label for="nameX">Player X Name</label>
+      <input class="name" id="nameX" type="text" name="nameX" value="" placeholder="Name">
+      <label for="nameO">Player O Name</label>
+      <input class="name" id="nameO" type="text" name="nameO" value="" placeholder="Name">
+    </div> -->
+    <div id="window" class="container-fluid">
+      <div class="gameBox container-fluid showBoard">
+        <div class="row">
+          <div id="row1" class="grid box1 col" value="col1"><span></span></div>
+          <div id="row1" class="grid box2 col" value="col2"><span></span></div>
+          <div id="row1" class="grid box3 col" value="col3"><span></span></div>
+        </div>
+        <div class="row">
+          <div id="row2" class="grid box4 col" value="col1"><span></span></div>
+          <div id="row2" class="grid box5 col" value="col2"><span></span></div>
+          <div id="row2" class="grid box6 col" value="col3"><span></span></div>
+        </div>
+        <div class="row">
+          <div id="row3" class="grid box7 col" value="col1"><span></span></div>
+          <div id="row3" class="grid box8 col" value="col2"><span></span></div>
+          <div id="row3" class="grid box9 col" value="col3"><span></span></div>
+        </div>
+      </div>
+      <div>
+        <div><span id="winner" class="container-fluid">Click "Start Game" to begin.</span></div>
+        <button id="startGame" class="button">Start Game</button>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+  <script src="ticTacToe.js"></script>
+</body>
+
+</html>
